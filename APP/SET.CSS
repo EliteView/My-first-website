@@ -1,0 +1,243 @@
+
+
+body{
+    font-style: 15px/1.5 Arial;
+    padding: 0;
+    -ms-wrap-margin: 0;
+    background-color: #fbfcfb;
+}
+
+
+
+/* Global*/
+
+.container{
+    width: 80%;
+    margin: auto;
+overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.button_1{height: 39px;
+    background: orangered;
+    border: 0;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffff;
+
+    }
+    .button_1:hover{
+        color: #fbfcfb;
+        background-color: #facc35;
+    }
+
+
+    .dark{
+        padding: 15px;
+        background:#35424a ;
+        margin-top: 10px;
+        color: #ffffff;
+margin-bottom: 10px;
+    }
+
+
+    /* HEADER*/
+
+    header{
+        background:#25424e ;
+        color: #ffffffff;
+        padding-top:10px ;
+        min-height:70px ;
+        border-bottom:orangered 3px solid ;
+    }
+
+    header a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #ffffff;
+        
+    }
+    header li{
+        float: left;
+        display: inline;
+        padding: 0 10px 0 10px;
+      
+    }
+
+    header .highlight{
+        float: left;
+    }
+
+    header #brannding{
+        float: left;
+    }
+    header #brannding h1{
+        margin: 0;
+    }
+
+    header nav{
+        float: right;
+        margin-top: -45px;
+    }
+
+    header .highlight, header .current a{
+color: orangered;
+transition: ease-in-out;
+font-weight: bold;
+    }
+
+
+    header a:hover{
+        color: #facc35;
+        font-weight: bold;
+    }
+
+    
+      .logo  img{
+        height: 90px;
+        width: 100px;
+        margin-left: 50px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+
+    .Team p{
+        width: 80%;
+        margin-top: -10px;
+        margin-left: 25px;
+    }
+    section h1 p{
+        display: flex;
+    }
+
+    /* Showcase */
+
+    #showcase{
+        min-height: 400px;
+        background: url(../img/cover.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #showcase h1{
+        margin-top: 100px;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+
+    #showcase p{
+font-size: 20px;
+
+    }
+
+    /* Newsletters*/
+
+    #newsletter{
+        padding: 15px;
+        color: #ffffff;
+        background: #35424a;
+    }
+
+    #newletter h1{
+        float: left;
+    }
+
+    #newsletter form{
+        float: right;
+        margin-top: px;
+        margin-top: -50px;
+    }
+
+    #newsletter input[type="email"]{
+padding: 4px;
+height: 25px;
+width: 250px;
+    }
+
+
+    /* footer */
+    footer{
+        padding: 15px;
+        text-align: center;
+        background: orangered;
+        color: #ffffff;
+        font-size: large;
+    }
+ /* boxes */
+
+ #boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    text-align: center;
+    width:30%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1em;
+}
+#boxes .container {
+    display: flex;
+    
+    gap: 2em;
+    /* flex-direction: row-reverse; */
+}
+  #boxes .box img{
+    width: 90px;
+  }
+
+  /* side bar */
+
+  aside#sidebar{
+    float: right;
+    width: 50vh;
+    height: 230px;
+    margin-top: 10px;
+    margin-top: -10%;
+  }
+
+    aside#sidebar .quote input,   aside#sidebar .quote textarea{
+        width: 90px;
+        
+        padding: 5px;
+    }
+
+/* Team */
+.Team{
+    width: 100vh;
+    background: #8a8b89da;
+}
+.holder{
+    margin-left: 50px;
+}
+
+.Team p{padding: 20px;
+    color: #ffffff;
+}
+
+ #case p{display: flex;
+    float: right;
+    background-color: #facc35;
+    color: #facc35;
+}
+
+#main-col .dark{
+    width: 100vh;
+    padding: 10px;
+}
+
+ul{
+    width: 90vh;
+}
+#main-col .dar{
+    width: 100vh;
+}
